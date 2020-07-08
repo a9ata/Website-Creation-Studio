@@ -1,0 +1,105 @@
+@font-face{
+    font-family: 'bignoodletitling';
+    src: url('font/bignoodletitling.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    color: #696969;
+    font-size: 14px;
+    line-height: 100%;
+    font-weight: 300;
+}
+ 
+.logo{
+    display: block;
+    position: absolute;
+    bottom: auto;
+}
+ 
+.logo>a>img{
+    height: 60px;
+    padding-right: 10px;
+    margin-top: -10px;
+}
+ 
+.logo>a{
+    font-family: 'bignoodletitling';
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    width: 70%;
+    color: #696969;
+    text-transform: uppercase;
+    font-size: 20px;
+    line-height: initial;
+}
+ 
+.topheader{
+    height: 144px;
+    position: fixed;
+    width: 100%;
+    z-index: 99999;
+    background-color: white;
+}
+ 
+.banner{
+    background: url(images/slider.jpg) #353535;
+    background-blend-mode: multiply, normal; 
+    min-height: 700px;
+    align-items: center;
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    text-align: center;
+}
+
+.banner h2{
+    font-size: 3rem;
+    font-family: 'bignoodletitling';
+}
+
+.banner p{
+    font-size: 2rem;
+    font-family: 'bignoodletitling';
+}
+
+.scrolldown{
+    position: absolute;
+    margin-top: 15%;
+    left: calc(50% - 25px);
+
+}
+.scrolldown img{
+    margin-bottom: 20px;
+}
+.scrolldown p{
+    margin-bottom: 20px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+}
+
+h3{
+    font-family: 'bignoodletitling';
+    font-size: 38px;
+    text-transform: uppercase;
+
+}
+.head_white_content {
+    text-align: center;
+    width: 100%;
+    padding: 90px;
+}
+
+.head_white_content span{
+    width: 154px;
+    height: 3px;
+    background-color: #f15324;
+    display: inline-block;
+}
+
+.head_white_content p{
+    padding: 25px 60px 0px;
+}

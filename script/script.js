@@ -9,3 +9,12 @@ $(document).ready(function(){
         controls: false,
     });
 });
+
+$(window).load(function() {
+    $('.flexslider').flexslider({
+      animation: "slide",
+      animationLoop: false,
+      itemWidth: 280,
+      itemMargin: 5
+    });
+});

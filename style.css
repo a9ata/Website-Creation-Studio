@@ -252,3 +252,40 @@ h3{
 .price-content:hover .price-content-body>p>span{
     color: #f15324;
 }
+
+.sinner1{
+    min-height: 440px;
+    padding: 70px 90px;
+    text-align: center;
+    background-color: #ebebeb;
+}
+ 
+.sinner1 a img{
+    width: 20%;
+}
+ 
+.sinner1 h4{
+    font-size: 20px;
+    margin-top: 10px;
+    font-family: 'bignoodletitling';
+}
+ 
+.sinner2{
+    min-height: 440px;
+    padding: 70px 90px 60px;
+    background: #ebebeb;
+}
+ 
+.sinner2 h4{
+    font-family: 'bignoodletitling';
+}
+
+.team .bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto {
+    position: absolute; 
+    bottom: 50px;
+    width: 100%;
+    left: -34%; 
+}
+
+
+    

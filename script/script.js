@@ -18,3 +18,9 @@ $(window).load(function() {
       itemMargin: 5
     });
 });
+
+$(document).ready(function(){
+    $('.accordion').accordion({
+        defaultOpen:''
+    });
+});

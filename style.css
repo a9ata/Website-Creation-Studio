@@ -305,3 +305,102 @@ h3{
     margin: 0 auto;
 
 }
+
+
+.getintouch {
+    padding: 80px 0; 
+}
+ 
+.textinput { 
+    width: 50%;
+    margin: 40px 0;
+}
+     
+.textinput p, .textmsg p {
+    font-weight: 700;
+    color: #696969;
+    margin-bottom: 5px;
+}
+     
+.textinput input {    
+    border: 0;  
+    border-bottom: 1px solid #cacaca;  
+    width: 90%;    
+    height: 40px;    
+    outline: 0;   
+}
+     
+.textinput p span, .textmsg p span { 
+    color: #f6744b; 
+    margin-left: 5px;
+}
+     
+.getintouch form {     
+    width: 70%;    
+    margin: 0 auto;     
+}
+     
+.textmsg textarea {
+    border: 0;
+    border-bottom: 1px solid #cacaca;
+    width: 95%;
+    height: 80px;
+    outline: 0;
+    padding-top: 10px;
+}
+     
+.submit{
+    width: 205px; 
+    height: 50px; 
+    letter-spacing: 1px;
+    background: #f6744b;   
+    border: 1px solid #f6744b;     
+    color: #fff;    
+    text-align: center;    
+    display: block;    
+    line-height: 50px;     
+    margin: 50px auto 0;    
+    font-weight: 700;    
+}
+
+.submit:hover{
+    color: #f6744b;
+    background: #fff;
+    transition: 1s;
+}
+
+.textmsg textarea:focus , .textinput input:focus{
+    box-shadow: 0px 1px 2.98px 4.02px rgba(246, 116, 75, 0.5);
+}
+
+.map{
+    background-color: black;
+    padding: 30px 0;
+    text-align: center;
+    cursor: pointer;
+}
+
+.map h4{
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #ebebeb;
+    display: inline-block;
+}
+
+.map span{
+    margin-left: 10px;
+    font-weight: 700;
+    color: #f15324;
+    font-size: 24px;
+}
+
+.accordion-open span::before{
+    font-family: 'Linearicons-Free';
+    content: "\e873";
+}
+
+.accordion-close span::after{
+    font-family: 'Linearicons-Free';
+    content: "\e874";
+}

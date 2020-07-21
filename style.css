@@ -404,3 +404,29 @@ h3{
     font-family: 'Linearicons-Free';
     content: "\e874";
 }
+
+footer {
+    background-color: #404040;
+    text-align: center;
+    padding-top: 20px;;
+    height: 300px;
+}
+
+footer h4 {
+    color: white;
+    border-spacing: 1px;
+    font-family: 'bignoodletitling';
+    padding: 10px 0;
+    text-transform: uppercase;
+}
+
+footer p{
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.social-lg img{
+    height: 40px;
+}
+

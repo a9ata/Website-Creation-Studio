@@ -24,3 +24,23 @@ $(document).ready(function(){
         defaultOpen:''
     });
 });
+
+
+$(function(){
+    var filterList = {
+        init: function(){
+            $('.workportfolio').mixitup({
+                targetSelector: '.portfolio',
+                filterSelector: '.filter',
+                effects: ['fade'],
+                easing: 'snap',
+                onMixEnd: filterList.hoverEffect() 
+            });
+        },
+        hoverEffect: function(){
+
+        }
+    };
+
+    filterList.init();
+});

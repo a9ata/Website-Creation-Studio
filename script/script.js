@@ -91,3 +91,27 @@ $(document).ready(function(){
         } 
     });
 });
+
+$(document).ready(function(){
+    $(".submit").on("click", function(){
+        if ($("#name").val() != '' && $("#email").val() != '') {
+            fetch('send.php', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'aplicatio/x-www-from-urlencode'
+                }.
+                body: $("#send_form").serialize(),
+            }).then((response) => response.json())
+            .then((data) => {
+                if(data.status === 'ok'){
+                    $("#dend_form").addClass("send_success");
+                }
+                if (data.status === 'error'){
+                    $("#dend_form").addClass("send_fail");
+                }
+            });
+        }else {
+            alert("Поля не заполнены!");
+        }
+    });
+});

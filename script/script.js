@@ -98,20 +98,27 @@ $(document).ready(function(){
             fetch('send.php', {
                 method: 'POST',
                 headers: {
-                    'Content-Type': 'aplicatio/x-www-from-urlencode'
-                }.
+                    'Content-Type': 'application/x-www-form-urlencoded',
+                },
                 body: $("#send_form").serialize(),
             }).then((response) => response.json())
             .then((data) => {
                 if(data.status === 'ok'){
-                    $("#dend_form").addClass("send_success");
+                    $("#send_form").addClass("send_success");
+                    setTimeout(() => $("#send_form").removeClass("send_success"), 4000);
                 }
                 if (data.status === 'error'){
-                    $("#dend_form").addClass("send_fail");
+                    $("#send_form").addClass("send_fail");
+                    setTimeout(() => $("#send_form").removeClass("send_fail"), 4000);
                 }
             });
         }else {
             alert("Поля не заполнены!");
         }
     });
+});
+
+
+$(window).load(function(){
+    $(".preload").fadeOut("slow");
 });
